@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*INDEX*/
+body{
+    background-color: black;
+    color: #ffcc00;
+}
+
+.menu{
+    font-family:comfortaa;
+    font-size: calc(.5em + 1vw);
+}
+
+.navmain{
+
+}
+
+.navitem{
+    color: #ffcc00;
+}
+
+.logoindex img{
+    padding-top: 12vh;
+    width: 100%;
+}
+
+.nav-item a{
+    color: #ffcc00;   
+}
+.nav-item a:hover{
+    
+}
+
+
+.musicaindex{
+    justify-items: center;
+
+}
+
+.card{
+    background-color: transparent;
+    text-align: center;
+}
+
+.nota{
+    padding-top: 5vh;
+    font-size: calc(.5em + 1vw);
+}
+
+.notacontent{
+    padding-top: 2vh;
+    align-self: center;
+    text-align: center;
+}
+
+h2{
+    font-size: calc(3em + 1vw);
+    font-family:'Amatic SC';
+    font-weight: bolder;
+}
+h3{
+    font-family:'Amatic SC';
+    font-size: calc(2em + 1vw);
+}
+h4{
+    font-family:'Manrope';
+    font-size: calc(.5em + 1vw);
+}
+
+.nota img{
+    max-width: 100%;
+    
+}
+
+/** FIN INDEX **/
+
+
+
+
+
+
+
+
+/** TIENDA **/
+
+.tiendacar{
+    width: 50vw;
+}
+
+.piepag{
+    text-align: center;
+    align-content:space-between;
+}
+.piepag img{
+    max-width: 100px;
+}
+
+
+
+
+
+
+
+
+/** EVENTOS **/
+.eventospag{
+    font-family: 'Manrope';
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-size: calc(.5em + 1vw);
+}
+
+.boton{
+    font-size: 200px;
+}
+
+.tarjeta{
+    font-family: 'Manrope';
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ACERCA DE*/
+
+.about{
+    align-content: center;
+    margin-top: 5vh;
+    font-size: calc(.5em + 1vw);
+    text-align: justify;
+    font-family: 'comfortaa';
+}
+
+.logoabout img{
+    padding-top: 3vh;
+    max-width: 500px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
