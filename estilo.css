@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
 }
-/*INDEX*/
+/** INDEX***************************/
 body{
     background-color: black;
     color: #ffcc00;
+    animate__fadeOut
 }
 
 .menu{
@@ -30,9 +31,10 @@ body{
     color: #ffcc00;   
 }
 .nav-item a:hover{
+    color: #ffff;
+    font-weight: bolder;
     
 }
-
 
 .musicaindex{
     justify-items: center;
@@ -42,6 +44,16 @@ body{
 .card{
     background-color: transparent;
     text-align: center;
+}
+.card a{
+    color: #ffcc00;
+    font-size: calc(.1em + 1vw);;
+    text-decoration: none;    
+}
+.card a:hover{
+    color:#ffff;
+    font-weight: bolder;
+
 }
 
 .nota{
@@ -71,40 +83,30 @@ h4{
 
 .nota img{
     max-width: 100%;
-    
 }
 
-/** FIN INDEX **/
+.piepag{
+    justify-content: space-around;
+    justify-self: end;
+    font-family: 'comfortaa';
+    text-align: center;
+    align-content:space-between;
+}
+.piepag a{
+    color: #ffcc00;
+}
 
-
-
-
-
-
-
-
-/** TIENDA **/
+/** TIENDA **************************/
 
 .tiendacar{
     width: 50vw;
 }
 
-.piepag{
-    text-align: center;
-    align-content:space-between;
-}
 .piepag img{
     max-width: 100px;
 }
 
-
-
-
-
-
-
-
-/** EVENTOS **/
+/** EVENTOS ***************************/
 .eventospag{
     font-family: 'Manrope';
     font-style: italic;
@@ -121,21 +123,11 @@ h4{
     font-family: 'Manrope';
 }
 
-
-
-
-
-
-
-
-
-
-
-/*ACERCA DE*/
+/** ACERCA DE****************************/
 
 .about{
     align-content: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
     font-size: calc(.5em + 1vw);
     text-align: justify;
     font-family: 'comfortaa';
